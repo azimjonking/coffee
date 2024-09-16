@@ -12,3 +12,38 @@
   min-height: 100dvh;
   background: #fff;
 }
+/* stories section start  */
+.stories {
+  width: 100%;
+}
+.stories  p {
+  text-align: center;
+  font-size: 16px;
+  color: #1D1F2E;
+  
+}
+
+.stor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top:100px ;
+}
+.sto h3 {
+  font-size: 20px;
+  color: #1D1F2E;
+  
+}
+.sto h5 {
+  font-size: 16px;
+  color: #1D1F2EB2;
+  
+}
+.sto p {
+  font-size: 12px;
+  color: #1D1F2E;
+  
+}
+
+/* stories section end  */
