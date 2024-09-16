@@ -13,7 +13,38 @@
   background: #fff;
 }
 
-/* home section start */
+/* about start */
+.container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container h1{
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-top: 20px;
+  color: #1D1F2E;
+}
+.container p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+  color: #1D1F2EB2;
+}
+
+.container button{
+  background: none;
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A25F4B;
+  border-bottom: 3px solid #A25F4B33;
+}
+/* about end */
 
 .home {
   background-image: url('./images/20_00.png');
