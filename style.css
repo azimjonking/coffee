@@ -88,3 +88,395 @@ top: 5346px;
 
 
 }
+/* Products Start */
+.products h1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(29, 31, 46, 1);
+  margin: 100px 0px;
+}
+.products-boxes {
+  width: 960px;
+  height: 1633px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 240px;
+  gap: 15px;
+}
+.products-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products-text__1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  color: rgba(29, 31, 46, 1);
+  margin-top: 35px;
+}
+.products-text__2 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(162, 95, 75, 1);
+}
+.products-text__2 span {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(29, 31, 46, 0.4);
+  text-decoration: line-through;
+}
+.products-text__3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(29, 31, 46, 0.7);
+}
+/* Products End */
+/* feature section start */
+
+.feature-img {
+  display: flex;
+  width: 100%;
+  height: 657px;
+  top: 480px;
+  padding-left: 240px;
+  padding-right: 240px;
+  gap: 20px;
+}
+
+
+.feature .feature-h1 {
+  text-align: center;
+  margin-right: 100px;
+  margin-bottom: 70px;
+  font-size: 12px;
+  color: #1D1F2E;
+}
+
+
+.feature-imgg h1 {
+  margin-left: 150px;
+  font-size: 20px;
+  color: #1D1F2E;
+  font-weight: 400;
+}
+
+.feature-imgg p {
+  margin-left: 180px;
+  color: #A25F4B;
+  font-size: 19px;
+}
+
+.feature-imgg p del {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1D1F2E66;
+}
+
+
+.feature-imgg2 h1 {
+  margin-left: 150px;
+  font-size: 20px;
+  color: #1D1F2E;
+  font-weight: 400;
+}
+
+
+.feature-imgg2 p {
+  margin-left: 180px;
+  color: #1D1F2EB2;
+  font-size: 19px;
+}
+
+
+.feature-h1-p {
+  padding-top: 35px;
+}
+
+.feature-h1-p2{
+  padding-top: 35px;
+}
+
+/* feature section end */
+/* about start */
+.container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container h1{
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-top: 20px;
+  color: #1D1F2E;
+}
+.container p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 20px;
+  color: #1D1F2EB2;
+}
+
+.container button{
+  background: none;
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #A25F4B;
+  border-bottom: 3px solid #A25F4B33;
+}
+/* about end */
+
+.home {
+  background-image: url('./images/20_00.png');
+  background-position: bottom;
+  background-size: cover;
+  padding: 80px 30px;
+}
+
+.home-div {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.home-p {
+  margin-top: 159px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+}
+
+.home-h1 {
+  margin-top: 10px;
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #fff;
+}
+
+.home-p2 {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.home-button .button {
+  width: 183px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 24px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #1D1F2E;
+  background: #fff;
+}
+
+/* home section end  */
+
+/* contact section start  */
+.contact {
+  padding: 0 30px;
+}
+
+.contact-border {
+  width: 100%;
+  height: 327px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background: #1D1F2E;
+}
+
+.contact-p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+}
+
+.contact-h1 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+.message {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.customer {
+  width: 400px;
+  height: 50px;
+  background: #1D1F2E;
+  border: 1px solid #2F303E;
+  padding: 18px 18px 17px;
+  color: #FFFFFF;
+}
+
+.customer-red {
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+}
+
+.contact-button {
+  width: 79px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  border: 1px solid #2F303E;
+  color: #000000;
+  transition: all 0.5s ease;
+}
+
+.contact-button:hover {
+  border: 1px solid #000000;
+  background: #1D1F2E;
+  color: #FFFFFF;
+}
+
+/* contact section end */
+/* header section start */
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-section .nav-ul ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+
+.header-section .nav-ul ul a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1D1F2E;
+  text-decoration: none;
+}
+/* header section end */
+
+
+/* footer section start */
+.footer-section {
+  width: 940px;
+  height: 204px;
+  margin-left: 160px;
+}
+
+.footer-section .footer-info {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-img p {
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.footer-img img {
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-img p {
+  font-size: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1D1F2EB2;
+}
+
+.footer-img a {
+  font-size: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1D1F2E4D;
+  text-decoration: none;
+}
+
+.footer-items {
+  list-style: none;
+}
+
+.footer-items h1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footer-items li a {
+  text-decoration: none;
+  color: #1D1F2EB2;
+  margin-top: 30px;
+}
+
+.footer-img__2 h1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #1D1F2E;
+}
+
+.footer-ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-ul h1 {
+  font-weight: 400;
+  font-size: 23px;
+  color: #000000;
+}
+
+.footer-img__2 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1D1F2EB2;
+}
+
+.footer-img__2 a {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  color: #1D1F2E;
+}
+
+
+/* footer section end */
