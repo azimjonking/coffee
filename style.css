@@ -13,7 +13,61 @@
   background: #fff;
 }
 
-
+/* Products Start */
+.products h1 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(29, 31, 46, 1);
+  margin: 100px 0px;
+}
+.products-boxes {
+  width: 960px;
+  height: 1633px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 240px;
+  gap: 15px;
+}
+.products-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.products-text__1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+  color: rgba(29, 31, 46, 1);
+  margin-top: 35px;
+}
+.products-text__2 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(162, 95, 75, 1);
+}
+.products-text__2 span {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(29, 31, 46, 0.4);
+  text-decoration: line-through;
+}
+.products-text__3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(29, 31, 46, 0.7);
+}
+/* Products End */
 /* feature section start */
 
 .feature-img {
