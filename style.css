@@ -13,6 +13,81 @@
   background: #fff;
 }
 
+.magazine-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.magazine-images__1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.magazine-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.magazine-info h3{
+
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 2px;
+
+
+}
+
+.magazine-info h1{
+font-size: 36px;
+font-weight: 400;
+line-height: 50px;
+
+}
+
+.magazine-info h2{
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+color:#1D1F2EB2;
+line-height: 56px;
+width: 353px;
+top: 147px;
+}
+
+.magazine h4{
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+color:#1D1F2E;
+letter-spacing: 2px;
+text-align: center;
+padding: 54px;
+
+}
+.magazine-info button{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+  line-height: 18px;
+  border-radius: 4px;
+  color: #ffffff;
+  letter-spacing: 5px;
+  background-color: #1D1F2E;
+  text-align: center;
+  
+
+}
+.banner{
+width: 1440px;
+margin-top: 100px;
+height: 380px;
+top: 5346px;
+
+
+}
 /* Products Start */
 .products h1 {
   font-weight: 400;
